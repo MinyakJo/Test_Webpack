@@ -1,0 +1,19 @@
+$main-color: #F7CD72;
+$hover-color: #ceae67;
+
+$border-color: #F7CD72;
+$border-radius: 12px;
+
+$leftBar-width: 240px;
+$foldButtonBox-width: 20px;
+
+:export{
+    mainColor: $main-color;
+    hoverColor: $hover-color;
+
+    borderColor: $border-color;
+    borderRadius: $border-radius;
+
+    leftBarWidth: $leftBar-width;
+    foldButtonBoxWidth: $foldButtonBox-width;
+}

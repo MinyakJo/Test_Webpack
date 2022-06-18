@@ -1,0 +1,17 @@
+@import "../../../Variables.module.scss";
+
+.leftButtonBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 48px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+
+    button{
+        width: 90%;
+        padding: 0 10%;
+        border: none;
+    }
+}

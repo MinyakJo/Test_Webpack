@@ -1,0 +1,21 @@
+@import "../../../Variables.module.scss";
+
+#logo{
+    display: flex;
+    width: calc(100% - 12px - 20px);
+    height: 72px;
+    margin-left: 12px;
+    margin-top: 12px;
+    align-items: center;
+
+    img{
+        width: 72px;
+        height: 72px;
+    }
+
+    h1{
+        display: inline-block;
+        margin-left: 12px;
+        color: $main-color;
+    }
+}

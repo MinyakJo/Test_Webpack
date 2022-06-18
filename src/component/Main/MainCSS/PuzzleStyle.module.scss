@@ -1,0 +1,12 @@
+@import "../../../Variables.module.scss";
+
+.puzzle{
+    display: table;
+    width: 24%;
+    height: 24%;
+    border: 1px solid $border-color;
+
+    img{
+        display: table-row;
+    }
+}

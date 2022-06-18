@@ -1,0 +1,38 @@
+@import "../../../Variables.module.scss";
+
+main{
+    display: flex;
+    width: calc(100% - $leftBar-width);
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: all 1.5s;
+    overflow-y: scroll;
+
+    //resetButton
+    button{
+        position: fixed;
+        display: flex;
+        width: 48px;
+        justify-content: center;
+        align-items: center;
+        bottom: 7%;
+        right: 5%;
+        opacity: 30%;
+        z-index: 999;
+        border: none;
+        border-radius: 100%;
+    
+        transition: all 2s;
+
+        &:hover{
+            opacity: 100%;
+        }
+        img{
+            transition: all 2s;
+            &:hover{
+                transform: rotate(360deg);
+            }
+        }
+    }
+}
